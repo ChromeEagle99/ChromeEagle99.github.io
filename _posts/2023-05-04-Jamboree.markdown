@@ -2,7 +2,7 @@
 layout: post
 title:  "Jam-boree!"
 date:   2023-04-01 04:25:25 +0800
-categories: Projects
+categories: Software Engineering
 banner:
   loop: true
   volume: 0.8
@@ -20,7 +20,7 @@ My third Software Engineering project at Digipen marked a significant departure 
 
 With a team comprising five Programmers (two specializing in Real-Time Interactive Systems and three in Interactive Media and Game Development), alongside two Designers (User Experience and Game Design) and one Artist (Digital Art and Aniamtion), the project's scope expanded considerably. Given the Designers' familiarity with Unity, our challenge lay in bridging the gap and crafting an editor tailored to their expertise.
 
-<iframe width="1250" height="703" src="https://www.youtube.com/embed/HzccCoXkQak" title="Jamboree Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/HzccCoXkQak" title="Jamboree Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 We employed a range of libraries, including 

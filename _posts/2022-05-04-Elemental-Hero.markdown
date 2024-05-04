@@ -2,7 +2,7 @@
 layout: post
 title:  "Elemental Hero"
 date:   2022-04-01 04:25:25 +0800
-categories: Projects
+categories: Software Engineering
 banner:
   loop: true
   volume: 0.8
