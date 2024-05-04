@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Jam-boree!"
+date:   2023-04-01 04:25:25 +0800
+categories: Projects
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: https://media.licdn.com/dms/image/D562DAQGa0gam5MDMRA/profile-treasury-image-shrink_800_800/0/1702312772018?e=1715400000&v=beta&t=lZJDR_L6x8OpqI93K9ZWmfl9hLH736cbxdsuxUAiqDE
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
+---
+
+My third Software Engineering project at Digipen marked a significant departure from past endeavors, representing an interdisciplinary collaboration. Partnering with an Artist and a Game Designer, we embarked on a two-trimester journey, tasked with developing both an editor for the game engine and the game itself. The trailer for the game is below!
+
+With a team comprising five Programmers (two specializing in Real-Time Interactive Systems and three in Interactive Media and Game Development), alongside two Designers (User Experience and Game Design) and one Artist (Digital Art and Aniamtion), the project's scope expanded considerably. Given the Designers' familiarity with Unity, our challenge lay in bridging the gap and crafting an editor tailored to their expertise.
+
+<iframe width="1250" height="703" src="https://www.youtube.com/embed/HzccCoXkQak" title="Jamboree Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+We employed a range of libraries, including 
+- OpenGL
+- GLFW
+- FMOD
+- Mono
+- RapidJSON
+- ImGui
+
+In this project, I took on the role of Engine Architecture programmer, responsible for building the core components of the engine. This involved tasks like managing the main loop, structuring layers and systems, implementing serialization, and designing the Entity-Component-System (ECS) architecture. Additionally, I worked on integrating C# using the Mono library and contributed to graphics development, which included creating a CPU-based particle system and some animation with scripting.
+
+Our resulting creation, "Jam-boree!", emerged as a vibrant 2D rhythm platformer. Set in the enchanting realm of Castella, players follow the journey of Brio as he navigates through musical landscapes, forming bonds with sentient guitars and navigating perils by staying in sync with the beat. It's an adventure brimming with musical wonders and rhythmic challenges, inviting players to explore and groove to the rhythm of the game.
+
+Our creation earned recognition and was featured on the Digipen Website under the "Rhythm" category. Additionally, it was published on the DigiPen Games Gallery, marking a significant achievement and showcasing our success in the realm of game development.
+

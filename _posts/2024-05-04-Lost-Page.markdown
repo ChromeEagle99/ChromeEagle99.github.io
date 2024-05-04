@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Lost Page"
+date:   2024-04-01 04:25:25 +0800
+categories: Projects
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: https://media.licdn.com/dms/image/D562DAQHcmPaX05EyPg/profile-treasury-image-shrink_800_800/0/1714795604415?e=1715403600&v=beta&t=nSb0h6qzDkne4YnDyEeEqD2yfJb5AjdtRAz9SpBATwE
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
+---
+
+My fourth and final Software Engineering project at Digipen. This is the last game project that we will be doing for the school before we move on to our internships. Naturally, this would be the hardest of it all. The task is the same as the previous project but we are required to make 3D. This exponentially increases the difficulty for everything, Graphics and Physics are affected the most and so is the gameplay scripting.
+
+The game we made is called Lost Page, a 2D comic character that is trapped in a 3D world.
+
+Continue later
+
