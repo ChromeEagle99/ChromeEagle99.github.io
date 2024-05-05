@@ -2,7 +2,10 @@
 layout: post
 title:  "Monke X"
 date:   2022-01-03 04:25:25 +0800
-categories: "Software Engineering"
+categories: Game
+tags:
+  - Game
+  - Software Engineering
 banner:
   loop: true
   volume: 0.8
@@ -18,7 +21,7 @@ banner:
 
 A monkey survival game in which the monkey must get through each level while avoiding opponent attacks and collecting bananas for points.
 
-<video controls>
+<video width="320" height="240" controls>
   <source src="/assets/videos/monkeXscape/monke_10sec_MonkeXcape.webm" type="video/webm">
 </video>
 

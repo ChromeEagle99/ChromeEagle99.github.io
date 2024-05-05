@@ -2,9 +2,12 @@
 layout: post
 title:  "Elemental Hero"
 date:   2022-04-01 04:25:25 +0800
-categories: "Software Engineering"
 description: "A brief description that will appear on the main page."
 excerpt_size: 20
+categories: Game
+tags:
+  - Game
+  - Software Engineering
 banner:
   loop: true
   volume: 0.8
