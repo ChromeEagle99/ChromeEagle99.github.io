@@ -2,7 +2,7 @@
 layout: post
 title:  "Jam-boree!"
 date:   2023-04-01 04:25:25 +0800
-categories: Software Engineering
+categories: "Software Engineering"
 banner:
   loop: true
   volume: 0.8
@@ -54,26 +54,19 @@ In this project, I took on the role of Engine Architecture programmer, responsib
     - A ECS is mandotary has it is versatile, efficient and powerful. Since we were not allowed to use any libraries that support it, it has to be designed ourselves. Designing it ourselves taught us the importance of contigious memory management, the L1 L2 L3 cache in the CPU. 
 - Serialization/Deserialization.
     - With an ECS made, the structure of how our data is saved is important
-
-@startuml
-(*) --> "Initialization"
-
-if "Some Test" then
-  -->[true] "Some Activity"
-  --> "Another activity"
-  -right-> (*)
-else
-  ->[false] "Something else"
-  -->[Ending process] (*)
-endif
-@enduml
-
-- Implemented C# embedding into our C++ program. 
+    - Add UML Diagram here
+- Implemented C# embedding into our C++ program.
+    - Bridge any custom C++ functions into the C# runtime 
+    - Collate all the scripts in the game assets folder
+    - Utilise the mono libraries C# compiler to generate the the .dll file for the engine to read
+    - Hot reloading and Safety Checks to improve game development efficiency
+- Resource Manager
+    - A singleton utility class that manages the loading, retrieval and free-ing of every asset in the game.
 - CPU-based Particle system
-- Animation with scripting.
-
+- Animation with scripting
 
 ## Research Material
+- [Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
 
 ## Summary
 

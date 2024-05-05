@@ -2,7 +2,7 @@
 layout: post
 title:  "Lost Page"
 date:   2024-04-01 04:25:25 +0800
-categories: Software Engineering
+categories: "Software Engineering"
 banner:
   loop: true
   volume: 0.8
@@ -16,9 +16,78 @@ banner:
   subheading_style: "color: gold"
 ---
 
-My fourth and final Software Engineering project at Digipen. This is the last game project that we will be doing for the school before we move on to our internships. Naturally, this would be the hardest of it all. The task is the same as the previous project but we are required to make 3D. This exponentially increases the difficulty for everything, Graphics and Physics are affected the most and so is the gameplay scripting.
+A 2D Comic Character in a 3D world! Explore the world and find clues to return back home!
 
-The game we made is called Lost Page, a 2D comic character that is trapped in a 3D world.
+### Language
+**C++** 
+For the engine development
 
-Continue later
+**C#** 
+For scripting in game objects
+
+**Batch Scripting**
+To setting up and cleaning of the projects
+
+## Libraries Used
+- [Vulkan](https://www.opengl.org/)
+- [GLFW](https://www.glfw.org/)
+- [FMOD](https://www.fmod.com/) for audio
+- [YAMLCPP](https://github.com/jbeder/yaml-cpp)
+- [ImGui](https://github.com/ocornut/imgui)
+- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)
+- [Mono](https://www.mono-project.com/)
+- [CMake](https://cmake.org/)
+- [vcpkg](https://vcpkg.io/en/)
+- [RTTR](https://www.rttr.org/)
+- [Jolt](https://github.com/jrouwe/JoltPhysics)
+
+
+## Overview
+**Software Engineering 300**
+
+My fourth and final Software Engineering project at Digipen. This is the last game project that we will be doing for the school before we move on to our internships. Naturally, this would be the hardest of it all. The objective is simillar to the previous project but we are required to make 3D. This exponentially increases the difficulty for everything, Graphics and Physics are affected the most and so is the gameplay scripting.
+
+The members were: 
+3 RTIS
+6 IMGD -> 4 IMGD
+3 UXGD
+1 BFA -> 0 BFA
+
+
+## Roles and Task
+In this project, I was the Tech Lead and my responsibilities range from developing the main architecture, managing and allocating task to the other programmers.
+
+- Created a build system.
+  - Used CMake to generate a super build. The solution consist of 6 different projects
+    1. The Engine (Library)
+    2. The AssetImporter (Executable)
+    3. The Editor (Executable)
+    4. The Game (Executable)
+    5. C# Core (The project that has C# code that links to our C++ systems) [DLL]
+    6. C# Game [DLL]
+- Added and link all the libraries
+  - With CMake and the package manager, vcpkg, we are able easily install libraries 
+- Managing the stucture of the project.
+- Setup the graphics system (Vulkan)
+  - Learned the basics of Vulkan and followed a tutorial to speed up the developement of the engine. 
+- Develop the Audio System
+  - Create a wrapper for the FMOD Library. A flexible system which the user can choose between 2D or 3D audio, create multiple ChannelGroups and access the system through C#
+- Develop the Physics system
+  - Create a wrapper for the Jolt Library and make utility functions to manipulate Jolt Bodies with the components from an ECS and with C#
+- Resource Manager
+  - An improvement from the previous projects resource manager. Now all assets has a Universal Unique Identifier (UUID) and metafiles
+- Mono Hot-Reloading
+  - Rebuild the C# dll without restarting the engine
+- Editor Improvements
+- In Game Camera
+- In Game UI and Animation
+
+## Research Material
+- [Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
+
+## Summary
+
+
+
+---
 
