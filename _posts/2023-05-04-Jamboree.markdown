@@ -16,24 +16,71 @@ banner:
   subheading_style: "color: gold"
 ---
 
+Follow the adventure of Brio as he explores the magical realm of Castella. Discover the wonders of music in this rhythm platforming game as you become friends with talking guitars and avoid the dangers of this world by sticking to the beat. The grand adventure awaits!
+
+### Language
+**C++** 
+For the engine development
+
+**C#** 
+For scripting in game objects
+
+## Libraries Used
+- [OpenGL](https://www.opengl.org/)
+- [GLEW](https://glew.sourceforge.net/)
+- [GLFW](https://www.glfw.org/)
+- [FMOD](https://www.fmod.com/) for audio
+- [RapidJSON](https://rapidjson.org/) for data parsing.
+- [ImGui](https://github.com/ocornut/imgui)
+- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)
+- [Mono](https://www.mono-project.com/)
+
+## Overview
+**Software Engineering 200**
+
 My third Software Engineering project at Digipen marked a significant departure from past endeavors, representing an interdisciplinary collaboration. Partnering with an Artist and a Game Designer, we embarked on a two-trimester journey, tasked with developing both an editor for the game engine and the game itself. The trailer for the game is below!
 
-With a team comprising five Programmers (two specializing in Real-Time Interactive Systems and three in Interactive Media and Game Development), alongside two Designers (User Experience and Game Design) and one Artist (Digital Art and Aniamtion), the project's scope expanded considerably. Given the Designers' familiarity with Unity, our challenge lay in bridging the gap and crafting an editor tailored to their expertise.
+With a team comprising five Programmers (2 specializing in Real-Time Interactive Systems and 3 in Interactive Media and Game Development), alongside 2 Designers (User Experience and Game Design) and 1 Artist (Digital Art and Aniamtion), the project's scope expanded considerably. Given the Designer's familiarity with Unity, our challenge lay in bridging the gap and crafting an editor tailored to their expertise.
+
+<iframe src="https://www.youtube.com/embed/m39J5mBmHHA" title="Jam-Boree! | DigiPen Institute of Technology Singapore" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/HzccCoXkQak" title="Jamboree Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Roles and Task
+In this project, I took on the role of Engine Architecture programmer, responsible for building the core components of the engine. This involved tasks such as
+- Managing the main loop, structuring layers and systems.
+    - With the exponential complexity of creating an editor on top of the engine, proper software design is needed. A layer design is made to seperate the the engine systems from the editor system.
+- Entity-Component-System (ECS)
+    - A ECS is mandotary has it is versatile, efficient and powerful. Since we were not allowed to use any libraries that support it, it has to be designed ourselves. Designing it ourselves taught us the importance of contigious memory management, the L1 L2 L3 cache in the CPU. 
+- Serialization/Deserialization.
+    - With an ECS made, the structure of how our data is saved is important
 
-We employed a range of libraries, including 
-- OpenGL
-- GLFW
-- FMOD
-- Mono
-- RapidJSON
-- ImGui
+@startuml
+(*) --> "Initialization"
 
-In this project, I took on the role of Engine Architecture programmer, responsible for building the core components of the engine. This involved tasks like managing the main loop, structuring layers and systems, implementing serialization, and designing the Entity-Component-System (ECS) architecture. Additionally, I worked on integrating C# using the Mono library and contributed to graphics development, which included creating a CPU-based particle system and some animation with scripting.
+if "Some Test" then
+  -->[true] "Some Activity"
+  --> "Another activity"
+  -right-> (*)
+else
+  ->[false] "Something else"
+  -->[Ending process] (*)
+endif
+@enduml
+
+- Implemented C# embedding into our C++ program. 
+- CPU-based Particle system
+- Animation with scripting.
+
+
+## Research Material
+
+## Summary
 
 Our resulting creation, "Jam-boree!", emerged as a vibrant 2D rhythm platformer. Set in the enchanting realm of Castella, players follow the journey of Brio as he navigates through musical landscapes, forming bonds with sentient guitars and navigating perils by staying in sync with the beat. It's an adventure brimming with musical wonders and rhythmic challenges, inviting players to explore and groove to the rhythm of the game.
 
 Our creation earned recognition and was featured on the Digipen Website under the "Rhythm" category. Additionally, it was published on the DigiPen Games Gallery, marking a significant achievement and showcasing our success in the realm of game development.
+
+[Download!](https://www.digipen.edu.sg/showcase/student-games/jam-boree)
+---
 

@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+excerpt_separator: "<!--more-->"
+
 title: Farhan Rais
 first_name: Farhan
 last_name: Rais 
@@ -39,8 +41,12 @@ github_username:  jekyll
 # theme: minima
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
 remote_theme: "jeffreytse/jekyll-theme-yat"
+gem 'jekyll-spaceship', group: :jekyll_plugins
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
