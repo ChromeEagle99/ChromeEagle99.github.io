@@ -6,6 +6,16 @@ categories: Game
 tags:
   - Game
   - Networking
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: "/assets/images/Untitled_Networking_Game/client/202124.png"
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 ---
 
 A top down multiplayer game and server made with winsock.
@@ -69,5 +79,47 @@ For the Server:
 
 With many popular online and multiplayer games, it is easy to forget the amount of work and the increased complexity that goes into developing it. Many major engines such as Unity, Godot or Unreal Engine have libraries and frameworks that simplify the process. 
 
+## Screenshots and explanation
+
+**Client Menu screen**
+When the user launches the game, they will be greeted with a simple menu screen.
+![MenuScreen](/assets/images/Untitled_Networking_Game/client/201307.png)
+
+**Client Lobby Screen**
+<br>
+Clicking on the join game button, will bring then to a server connect screen. Since i am launching both client and server on my machine, i will connect to the localhost and use the default port 5050
+![ConnectToLobby](/assets/images/Untitled_Networking_Game/client/201856.png)
+
+**The game screen**
+<br>
+When the user successfully connects to the server, it will wait for the game to start.
+
+![GameScreen](/assets/images/Untitled_Networking_Game/client/202124.png)
+
+**The server UI**
+<br>
+This is the server UI. It allows the server host to control various aspects of the game such as 
+
+- Which map to load
+- Viewing how many players are connected
+- View player stats
+- Send custom commands to any or all players
+
+It is important for both the client and the server to have the same copy of the map. The map data read by the client is purely for rendering purposes whereas the map data in the server is used for physics and collision detection.
+
+When any client does an input, it will compact it into a small message and sent to the server. The server will receive the message, validate it, update the clients position and broadcast it to the other clients.  
+
+![ServerUI](/assets/images/Untitled_Networking_Game/server/201912.png)
+
+**Player Connected**
+<br>
+When a player is connected, it will show in the server
+
+![PlayerConnected](/assets/images/Untitled_Networking_Game/server/202015.png)
+
+**Player Stats**
+<br>
+
+![PlayerStats](/assets/images/Untitled_Networking_Game/server/202217.png)
 ---
 

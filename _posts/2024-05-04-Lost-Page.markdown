@@ -10,7 +10,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://media.licdn.com/dms/image/D562DAQHcmPaX05EyPg/profile-treasury-image-shrink_800_800/0/1714795604415?e=1715403600&v=beta&t=nSb0h6qzDkne4YnDyEeEqD2yfJb5AjdtRAz9SpBATwE
+  image: "/assets/images/Lost-page/1714795604415.jpg"
   opacity: 0.618
   background: "#000"
   height: "100vh"

@@ -10,7 +10,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://media.licdn.com/dms/image/D562DAQGa0gam5MDMRA/profile-treasury-image-shrink_800_800/0/1702312772018?e=1715400000&v=beta&t=lZJDR_L6x8OpqI93K9ZWmfl9hLH736cbxdsuxUAiqDE
+  image: "/assets/images/Jamboree/1712569763264.jpg"
   opacity: 0.618
   background: "#000"
   height: "100vh"

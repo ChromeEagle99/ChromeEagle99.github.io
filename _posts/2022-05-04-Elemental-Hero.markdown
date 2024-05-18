@@ -12,7 +12,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://media.licdn.com/dms/image/D4E2DAQH3oGngXcGr0w/profile-treasury-image-shrink_800_800/0/1702310804905?e=1715396400&v=beta&t=ZVAj2ViJ3BbQOPFvQo-5_pdMBD_e4d_PwssS4fktNKE
+  image: "/assets/images/elemental-hero/1702310804905.jpg"
   background: "#000"
   height: "100vh"
   min_height: "38vh"
