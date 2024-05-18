@@ -1,0 +1,23 @@
+email:
+  id: 'chromeeagle99@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa fa-envelope'
+
+# rss:
+#   id: '' # Leave this property empty
+#   href: '/feed.xml'
+#   title: 'RSS'
+#   fa-icon: 'fa fa-rss'
+
+linkedin:
+  id: 'muhd-farhan-bin-mohd-rais'
+  href: 'https://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin'
+
+github:
+  id: 'ChromeEagle99'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'

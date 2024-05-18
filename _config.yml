@@ -37,6 +37,12 @@ url: "https://chromeeagle99.github.io/" # the base hostname & protocol for your 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+feed:
+  path: feed.xml
+  title: Portfolio
+  description: A blog and portfolio of my experience as a computer science major and an aspiring software engineer.
+  lang: en-US
+
 # Build settings
 # theme: minima
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
