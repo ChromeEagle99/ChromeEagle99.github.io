@@ -10,7 +10,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: "/assets/images/Lost-page/1714795604415.jpg"
+  image: "/assets/images/Lost-Page/1714795604415.jpg"
   opacity: 0.618
   background: "#000"
   height: "100vh"
