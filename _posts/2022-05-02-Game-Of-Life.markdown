@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cornway Game of Life"
+title:  "Conway Game of Life"
 date:   2022-01-02 04:25:25 +0800
 categories: Interactive
 tags:
