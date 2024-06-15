@@ -6,6 +6,7 @@ categories: Game
 tags:
   - Game
   - Software Engineering
+excerpt: "A monkey survival game in which the monkey must get through each level while avoiding opponent attacks and collecting bananas for points."
 banner:
   loop: true
   volume: 0.8
@@ -19,7 +20,7 @@ banner:
   subheading_style: "color: gold"
 ---
 
-A monkey survival game in which the monkey must get through each level while avoiding opponent attacks and collecting bananas for points.
+
 
 <video width="320" height="240" controls>
   <source src="/assets/videos/monkeXscape/monke_10sec_MonkeXcape.webm" type="video/webm">

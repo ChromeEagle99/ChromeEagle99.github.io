@@ -8,6 +8,7 @@ categories: Game
 tags:
   - Game
   - Software Engineering
+excerpt: "Elemental Hero is a thrilling 2D top-down action-adventure game focused on dungeon exploration. Utilize unique elemental abilities to battle diverse adversaries, uncover clues, solve puzzles, and conquer challenges. Master the four different elements and claim your victory."
 banner:
   loop: true
   volume: 0.8
@@ -21,9 +22,6 @@ banner:
 
 ---
 
-Elemental Hero is a thrilling 2D top-down action-adventure game focused on dungeon exploration. Utilize unique elemental abilities to battle diverse adversaries, uncover clues, solve puzzles, and conquer challenges. Master the four different elements and claim your victory.
-
-<!--more-->
 ### Language
 #### C++
 This time, we had the opportunity to leverage C++ for development instead of C. The access to the STL library simplifies a lot of the low level task. The universal containers such as Vectors, Arrays simplifies memory management with RAII.

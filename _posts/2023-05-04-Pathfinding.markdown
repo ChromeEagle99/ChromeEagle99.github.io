@@ -6,6 +6,7 @@ categories: Interactive
 tags:
   - Data Structure
   - Algorithms
+excerpt: "An Interactive pathfinding page to display Dijkstra and A Star Pathfinding."
 banner:
   loop: true
   volume: 0.8
@@ -48,7 +49,7 @@ banner:
     
 </style>
 
-An Interactive pathfinding page to display Dijkstra and A Star Pathfinding.
+
 
 <br>
 

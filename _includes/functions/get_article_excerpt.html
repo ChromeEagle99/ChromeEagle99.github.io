@@ -19,8 +19,10 @@
 {%- include functions.html func='get_article_words' -%}
 {% assign words = return %}
 
-{% assign _article = article | strip_html %}
-{% assign _words = _article | size %}
+
+{%- assign _article = post.excerpt | default: "This is a hardcoded excerpt for posts without an excerpt." -%}
+{%- assign _article = _article | strip_html -%}
+{%- assign _words = _article | size -%}
 
 {% assign _size = excerpt_size %}
 
@@ -37,3 +39,8 @@
 {% endif %}
 
 {% assign return = _article | truncate: _size %}
+
+<!-- Debug Information -->
+<!-- <p style="color: red;">
+  Excerpt: {{ _article | truncate: _size }}
+</p> -->

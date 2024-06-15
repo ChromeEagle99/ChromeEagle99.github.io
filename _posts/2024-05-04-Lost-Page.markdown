@@ -6,6 +6,7 @@ categories: Game
 tags:
   - Game
   - Software Engineering
+excerpt: "A 2D Comic Character in a 3D world! Explore the world and find clues to return back home!"
 banner:
   loop: true
   volume: 0.8
@@ -19,7 +20,11 @@ banner:
   subheading_style: "color: gold"
 ---
 
-A 2D Comic Character in a 3D world! Explore the world and find clues to return back home!
+<div class="video-container">
+<iframe width="1250" height="703" src="https://www.youtube.com/embed/lZQlaOtzYw0" title="Lost Page Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 ### Language
 **C++** 

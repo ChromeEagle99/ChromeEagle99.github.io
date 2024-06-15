@@ -205,5 +205,18 @@ html[data-theme="dark"]  {
     display: none;
     background-color: $dark-background-color;
   }
+
+  // Dark mode styles
+.read_more {
+  background-color: #1d1d1f;
+  color: #ff5100;
 }
+
+.read_more:hover {
+  background-color: #d7d7d7;
+}
+
+
+}
+
 

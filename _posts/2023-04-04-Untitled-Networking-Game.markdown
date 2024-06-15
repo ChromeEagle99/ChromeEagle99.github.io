@@ -6,6 +6,7 @@ categories: Game
 tags:
   - Game
   - Networking
+excerpt: "A top down multiplayer game and server made with winsock."
 banner:
   loop: true
   volume: 0.8
@@ -18,7 +19,7 @@ banner:
   subheading_style: "color: gold"
 ---
 
-A top down multiplayer game and server made with winsock.
+
 
 ### Language
 **C++** 

@@ -6,6 +6,7 @@ categories: Game
 tags:
   - Game
   - Software Engineering
+excerpt: "Follow the adventure of Brio as he explores the magical realm of Castella. Discover the wonders of music in this rhythm platforming game as you become friends with talking guitars and avoid the dangers of this world by sticking to the beat. The grand adventure awaits!"
 banner:
   loop: true
   volume: 0.8
@@ -18,8 +19,6 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 ---
-
-Follow the adventure of Brio as he explores the magical realm of Castella. Discover the wonders of music in this rhythm platforming game as you become friends with talking guitars and avoid the dangers of this world by sticking to the beat. The grand adventure awaits!
 
 ### Language
 **C++** 
