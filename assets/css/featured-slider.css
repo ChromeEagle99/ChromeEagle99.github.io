@@ -1,0 +1,45 @@
+/* assets/css/featured-slider.scss */
+.featured-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project-description {
+    margin-top: 10px;
+  }
+  
+  .project-description h3 {
+    margin: 5px 0;
+  }
+  
+  .project-description p {
+    margin: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .swiper-container {
+      max-width: 100%;
+    }
+  
+    .swiper-slide img {
+      width: 100%;
+    }
+  }
+  

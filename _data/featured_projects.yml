@@ -1,0 +1,19 @@
+# _data/featured_projects.yml
+
+- title: "FoodKaki"
+  description: "A WebApp for a 24 hour Hackathon!"
+  image: "/assets/images/FoodKaki/AngelHack_logo.jpg"
+
+- title: "Lost Page"
+  description: "A 2D Cat lost in a 3D world"
+  image: "/assets/images/Lost-Page/1714795604415.jpg"
+
+- title: "Jam-boree!"
+  description: "A 2D musical platformer!"
+  image: "/assets/images/Jamboree/1712569763264.jpg"
+
+- title: "Elemental Hero"
+  description: "A 2D top-down action-adventure game."
+  image: "/assets/images/elemental-hero/1702310804905.jpg"
+
+# Add more projects as needed

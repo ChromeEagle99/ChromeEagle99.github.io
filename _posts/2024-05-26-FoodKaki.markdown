@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "FoodKaki"
+date:   2024-05-06 04:25:25 +0800
+categories: Web Development
+tags:
+  - Hackathon
+  - Web Development
+  - AI
+  - Webscraping
+excerpt: "FoodKaki! A modernise Singapore based food budgeting app. Have you been spending too much of food delivery lately? Do you need some motivation to cook for youself and loved ones? We hope our solution helps! "
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: "/assets/images/FoodKaki/unnamed.png"
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
+---
+
+# My First Hackathon Experience: AngelHack with DBS Bank
+
+
+<div class="video-container">
+<iframe width="1250" height="703" src="https://www.youtube.com/embed/r8cmHoZXlk4" title="Angel Hackathon -- Foodkaki" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Try it here!](https://github.com/aader320/FoodKaki.git)
+
+## Introduction
+
+I had the pleasure of participating in my first hackathon, hosted by AngelHack in collaboration with DBS Bank. It was a thrilling 24-hour event filled with innovation, collaboration, and intense coding sessions. My teammates and I tackled new challenges head-on, taking minimal breaks to maximize our productivity.
+
+## Embracing New Technologies
+
+As students with a strong background in C/C++, we embraced the opportunity to expand our skill set by diving into Node.js and React for our project. We developed "FoodKaki", a budget tracking app designed to promote financial inclusion among the aging population by focusing on food expenses.
+
+## Project: FoodKaki
+
+"FoodKaki" enhances financial literacy by allowing users to compare the costs of restaurant meals with home-cooked dishes. Leveraging web scraping technologies, we fetched meal options from Grab and ingredient prices from FairPrice, integrating these with insights from Google Gemini AI to provide a holistic view of daily food expenditures.
+
+## Overcoming Challenges
+
+At first, we tried looking up some pre-existing web scrapers for Grab and NTUC. We did find some, but they were outdated, didn't work, sometimes gave errors, or didn't function the way we wanted them to. We then decided to make our own web scrapers, which allowed us to tailor the functionality to our specific needs.
+
+Initially, we were on the fence about what to use for the front end. We were leaning towards Flutter, but we didn't have experience with it. After some discussion, we felt that Next.js would be a better option as it was easier to pick up and had plenty of documentation and tutorials.
+
+## Tools and Teamwork
+
+We used GitHub as our source control and had only 24 hours to develop the app. Teamwork was crucial, and we utilized various tools to expedite our development, such as ChatGPT, documentation, and Figma. This collaborative effort allowed us to stay organized and efficient throughout the hackathon.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="/assets/images/FoodKaki/github.png" alt="Github" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/figma.png" alt="Figma" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/ChatGPT_logo.svg" alt="ChatGPT" style="height: 100px;"/>
+</div>
+
+
+## Learning Experience
+
+Participating in this hackathon was a fantastic learning experience. We learned to research and use new APIs, such as Gemini, and developed skills in web scraping, dealing with big data, and analyzing huge JSON files. We also gained insights into how Grab and NTUC display their items on their webpages by analyzing the JSON data.
+
+## Project Details
+
+### FoodKaki
+
+**AngelHack - Tech Track (Financial Inclusion)**
+
+**Problem Statement:**
+Singapore's aging population, coupled with rising living costs, poses a challenge for individuals to secure a financially secure retirement. DBS is looking for innovative tech solutions to empower this demographic and improve their retirement adequacy.
+
+**Solution:**
+FoodKaki is a budget tracking app that allows users to compare prices between food bought from FairPrice and food delivered by Grab, helping them stay within their daily budget. This enables users to make more informed decisions regarding their food expenses.
+
+**Tech Stack:**
+- **Front end:** Next.js, Tailwind CSS, DaisyUI
+- **Backend:** Node.js
+- **Web Scrapers:** Created 2 Python web scrapers to retrieve and filter data from Grab and NTUC FairPrice.
+- **Integration:** Integrated the Gemini API to generate an ingredient list. We then let the user choose the ingredients.
+- **Functionality:** We record all the prices and allow the user to decide.
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="/assets/images/FoodKaki/nextJs.png" alt="Next.js" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/tailwindCSS.png" alt="Tailwind CSS" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/daisyUI.png" alt="DaisyUI" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/nodeJs.png" alt="Node.js" style="height: 100px;"/>
+  <img src="/assets/images/FoodKaki/gemini.png" alt="Gemini AI" style="height: 100px;"/>
+</div>
+
+## Conclusion
+
+Participating in this hackathon was a fantastic learning experience. It pushed me out of my comfort zone and allowed me to explore new technologies while working towards a meaningful cause. I look forward to participating in more hackathons in the future and continuing to innovate in the tech space.
+
+---

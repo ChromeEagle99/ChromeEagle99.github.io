@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <body>
 
     {%- include views/header.html -%}
@@ -10,10 +10,14 @@
     {%- include views/banner.html -%}
 
     {%- include extensions/hashlocate.html -%}
-
+    
     {%- include extensions/theme-toggle.html -%}
 
     {%- include extensions/click-to-top.html -%}
+
+    {% if page.url == "/" %}
+    {% include featured-slider.html %}
+    {% endif %}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -22,6 +26,7 @@
     </main>
 
     {%- include views/footer.html -%}
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/js/featured-slider.js"></script>
   </body>
 </html>
